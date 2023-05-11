@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HousingLocationComponent } from '../housing-location/housing-location.component';
 import { HousingLocation } from '../housinglocation';
 import { HousingService } from '../housing.service';
+
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -34,4 +35,5 @@ export class HomeComponent {
   constructor() {
     this.housingLocationList = this.housingService.getAllHousingLocations();
   }
+
 }
