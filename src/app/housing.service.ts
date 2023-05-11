@@ -11,7 +11,7 @@ export class HousingService {
       name: 'Acme Fresh Start Housing',
       city: 'Chicago',
       state: 'IL',
-      photo: '/assets/bernard-hermant-CLKGGwIBTaY-unsplash.jpg',
+      photo: 'https://images.unsplash.com/photo-1579852915565-3e7ca937ade9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=802&q=80',
       availableUnits: 4,
       wifi: true,
       laundry: true
@@ -21,7 +21,7 @@ export class HousingService {
       name: 'A113 Transitional Housing',
       city: 'Santa Monica',
       state: 'CA',
-      photo: '/assets/brandon-griggs-wR11KBaB86U-unsplash.jpg',
+      photo: 'https://plus.unsplash.com/premium_photo-1673483585922-f2e747e7bedc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80',
       availableUnits: 0,
       wifi: false,
       laundry: true
@@ -31,7 +31,7 @@ export class HousingService {
       name: 'Warm Beds Housing Support',
       city: 'Juneau',
       state: 'AK',
-      photo: '/assets/i-do-nothing-but-love-lAyXdl1-Wmc-unsplash.jpg',
+      photo: 'https://images.unsplash.com/photo-1589593969557-34da7b63eb6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
       availableUnits: 1,
       wifi: false,
       laundry: false
@@ -41,7 +41,7 @@ export class HousingService {
       name: 'Homesteady Housing',
       city: 'Chicago',
       state: 'IL',
-      photo: '/assets/ian-macdonald-W8z6aiwfi1E-unsplash.jpg',
+      photo: 'https://images.unsplash.com/photo-1545173456-5d05b596712a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
       availableUnits: 1,
       wifi: true,
       laundry: false
@@ -51,7 +51,7 @@ export class HousingService {
       name: 'Happy Homes Group',
       city: 'Gary',
       state: 'IN',
-      photo: '/assets/krzysztof-hepner-978RAXoXnH4-unsplash.jpg',
+      photo: 'https://images.unsplash.com/photo-1604860580313-f6f448afe329?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1100&q=80',
       availableUnits: 1,
       wifi: true,
       laundry: false
@@ -61,7 +61,7 @@ export class HousingService {
       name: 'Hopeful Apartment Group',
       city: 'Oakland',
       state: 'CA',
-      photo: '/assets/r-architecture-JvQ0Q5IkeMM-unsplash.jpg',
+      photo: 'https://images.unsplash.com/photo-1623121013540-478557f6d9e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
       availableUnits: 2,
       wifi: true,
       laundry: true
@@ -71,37 +71,27 @@ export class HousingService {
       name: 'Seriously Safe Towns',
       city: 'Oakland',
       state: 'CA',
-      photo: '/assets/phil-hearing-IYfp2Ixe9nM-unsplash.jpg',
+      photo: 'https://plus.unsplash.com/premium_photo-1670209983454-93d6e65b164e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
       availableUnits: 5,
       wifi: true,
       laundry: true
     },
     {
       id: 7,
-      name: 'Hopeful Housing Solutions',
-      city: 'Oakland',
-      state: 'CA',
-      photo: '/assets/r-architecture-GGupkreKwxA-unsplash.jpg',
-      availableUnits: 2,
-      wifi: true,
-      laundry: true
-    },
-    {
-      id: 8,
       name: 'Seriously Safe Towns',
       city: 'Oakland',
       state: 'CA',
-      photo: '/assets/saru-robert-9rP3mxf8qWI-unsplash.jpg',
+      photo: 'https://images.unsplash.com/photo-1597131746472-560dcf4f3f90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80',
       availableUnits: 10,
       wifi: false,
       laundry: false
     },
     {
-      id: 9,
+      id: 8,
       name: 'Capital Safe Towns',
       city: 'Portland',
       state: 'OR',
-      photo: '/assets/webaliser-_TPTXZd9mOo-unsplash.jpg',
+      photo: 'https://images.unsplash.com/photo-1613476988980-239ee9e2325f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80',
       availableUnits: 6,
       wifi: true,
       laundry: true
