@@ -63,6 +63,14 @@ input {
   border-left: none;
   border-bottom: solid .3px;
 }
+input:focus {
+  outline: none; 
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: solid 2px; 
+}
+
 @media (max-width: 1024px) {
   .listing-photo {
     width: 100%;
