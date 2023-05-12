@@ -7,23 +7,21 @@ import { HousingService } from '../housing.service';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [
-    CommonModule,
-    HousingLocationComponent
-  ],
-  templateUrl : './home.component.html',
+  imports: [CommonModule, HousingLocationComponent],
+  templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
 })
-
 export class HomeComponent {
   housingLocationList: HousingLocation[] = [];
   housingService: HousingService = inject(HousingService);
   filteredLocationList: HousingLocation[] = [];
   constructor() {
-    this.housingService.getAllHousingLocations().then((housingLocationList: HousingLocation[]) => {
-      this.housingLocationList = housingLocationList;
-      this.filteredLocationList = housingLocationList;
-    });
+    this.housingService
+      .getAllHousingLocations()
+      .then((housingLocationList: HousingLocation[]) => {
+        this.housingLocationList = housingLocationList;
+        this.filteredLocationList = housingLocationList;
+      });
   }
   filterResults(text: string) {
     if (!text) {
@@ -31,8 +29,8 @@ export class HomeComponent {
     }
 
     this.filteredLocationList = this.housingLocationList.filter(
-      housingLocation => housingLocation?.city.toLowerCase().includes(text.toLowerCase())
+      (housingLocation) =>
+        housingLocation?.city.toLowerCase().includes(text.toLowerCase())
     );
-
   }
 }
