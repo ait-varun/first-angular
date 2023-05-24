@@ -1,18 +1,24 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { DetailsComponent } from './details/details.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 const routeConfig: Routes = [
   {
     path: '',
     component: HomeComponent,
-    title: 'Home page'
+    title: 'Home page',
   },
   {
     path: 'details/:id',
     component: DetailsComponent,
-    title: 'Home details'
-  }
+    title: 'Home details',
+  },
+  {
+    path: '**',
+    component: NotFoundComponent,
+    title: '404',
+  },
 ];
 
 export default routeConfig;
